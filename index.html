@@ -7,114 +7,123 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
     <title>Course Summery</title>
-
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
 
 </head>
 
 <body>
-
+    <h2>Welcome to EPR</h2>
 
     <form action="">
+        <div class="section personal">
 
-        <div class="control">
-            <div>
+            <div class="control">
+                <div>
 
-                <label for="firstname">First Name</label>
+                    <label for="firstname">First Name</label>
+                </div>
+                <div>
+
+                    <input type="text" name="firstname">
+                </div>
             </div>
-            <div>
+            <div class="control">
+                <div>
 
-                <input type="text" name="firstname">
+                    <label for="lastname">Last Name</label>
+                </div>
+                <div>
+
+                    <input type="text" name="lastname">
+                </div>
             </div>
-        </div>
-        <div class="control">
-            <div>
+            <div class="control">
+                <div>
 
-                <label for="lastname">Last Name</label>
+                    <label for="birthday">Birthday</label>
+                </div>
+                <div>
+
+                    <input type="date" name="birthday">
+                </div>
             </div>
-            <div>
+            <div class="control">
+                <div>
 
-                <input type="text" name="lastname">
-            </div>
-        </div>
-        <div class="control">
-            <div>
+                    <label for="gender">Gender</label>
+                </div>
+                <div>
 
-                <label for="age">Age</label>
-            </div>
-            <div>
+                    <select name="gender" id="">
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">Other</option>
+                    </select>
+                </div>
 
-                <input type="number" name="age">
-            </div>
-        </div>
-        <div class="control">
-            <div>
-
-                <label for="gender">Gender</label>
-            </div>
-            <div>
-
-                <select name="gender" id="">
-                    <option value="1">Male</option>
-                    <option value="2">Female</option>
-                    <option value="3">Other</option>
-                </select>
-            </div>
-        </div>
-        <div class="control">
-            <div>
-
-                <label for="city">City</label>
-            </div>
-            <div>
-
-                <input type="text" name="city">
             </div>
         </div>
-        <div class="control">
-            <div>
+        <div class="section address">
 
-                <label for="street">Street</label>
+
+            <div class="control">
+                <div>
+
+                    <label for="city">City</label>
+                </div>
+                <div>
+
+                    <input type="text" name="city">
+                </div>
             </div>
-            <div>
+            <div class="control">
+                <div>
 
-                <input type="text" name="street">
+                    <label for="street">Street</label>
+                </div>
+                <div>
+
+                    <input type="text" name="street">
+                </div>
+            </div>
+            <div class="control">
+                <div>
+
+                    <label for="house">House</label>
+                </div>
+                <div>
+
+                    <input type="text" name="house">
+                </div>
             </div>
         </div>
-        <div class="control">
-            <div>
 
-                <label for="house">House</label>
+        <div class="section question">
+
+            <div>
+                <p>Do you have covid19?</p>
+                <input type="radio" id="sick" name="covid19" value="1">
+                <label for="sick">Sick</label><br>
+                <input type="radio" id="healthy" name="covid19" value="2">
+                <label for="healthy">Healthy</label><br>
+                <input type="radio" id="care" name="covid19" value="3">
+                <label for="care">Don't Care</label>
             </div>
             <div>
+                <p>
 
-                <input type="text" name="house">
+                    How are you going to come to the office?
+                </p>
+                <input type="radio" id="home" name="car" value="1">
+                <label for="home">I stay at home 😂</label><br>
+                <input type="radio" id="my-car" name="car" value="2">
+                <label for="my-car">My Car 🚜</label><br>
+                <input type="radio" id="foot" name="car" value="3">
+                <label for="foot">By Foot 👨🏻‍🦯</label>
             </div>
         </div>
 
-
-        <div>
-            <p>Do you have covid19?</p>
-            <input type="radio" name="covid19" value="1">
-            <label for="male">Sick</label><br>
-            <input type="radio" name="covid19" value="2">
-            <label for="female">Healthy</label><br>
-            <input type="radio" name="covid19" value="3">
-            <label for="other">Don't Care</label>
-        </div>
-        <div>
-            <p>
-
-                How are you going to come to the office?
-            </p>
-            <input type="radio" id="home" name="car" value="1">
-            <label for="home">I stay at home 😂</label><br>
-            <input type="radio" id="my-car" name="car" value="2">
-            <label for="my-car">My Car 🚜</label><br>
-            <input type="radio" id="foot" name="car" value="3">
-            <label for="foot">By Foot 👨🏻‍🦯</label>
-        </div>
-
-        <div>
+        <div class="section opinion">
             <div>
 
                 <label for="your-opinion">What is your opinion</label>
@@ -125,19 +134,13 @@
             </div>
         </div>
 
+        <div class="section action">
 
-        <button>Ok</button>
-        <button>Cancel</button>
+            <button class="btn btn-ok">Ok</button>
+            <button class="btn btn-cancel">Cancel</button>
+        </div>
 
     </form>
-
-
-
-
-
-
-
-
 
 </body>
 

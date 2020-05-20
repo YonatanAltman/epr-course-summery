@@ -1,5 +1,14 @@
-.control {
+body {
+    font-family: "Aclonica";
+    font-size: 22px;
+}
+form {
+}
+.section {
     outline: red solid 1px;
+}
+
+.control {
     width: 33%;
 }
 
