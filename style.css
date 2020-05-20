@@ -1,15 +1,55 @@
+input,
+textarea,
 body {
-    font-family: "Aclonica";
-    font-size: 22px;
+    font-family: "heebo";
 }
 form {
+    margin: auto;
+    width: 600px;
+}
+.top {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 10px;
 }
 .section {
     outline: red solid 1px;
 }
-
+.personal {
+    width: 400px;
+}
+.question {
+    width: 300px;
+    max-width: 80vw;
+    margin: auto;
+}
+.opinion textarea {
+    width: 60vw;
+    min-width: 300px;
+    max-width: 100%;
+}
 .control {
     width: 33%;
+}
+.action {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    place-content: center flex-end;
+    column-gap: 10px;
+    height: 40px;
+}
+.action .btn-ok-1 {
+    grid-column-start: -2;
+}
+.action .btn-cancel-1 {
+    grid-column-end: 2;
+}
+.btn {
+    border-radius: 10px;
+    width: 60px;
+    background-color: red;
+    color: wheat;
+    margin: 0 10px ;
 }
 
 .control input {

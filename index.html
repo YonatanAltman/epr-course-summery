@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Course Summery</title>
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Heebo' rel='stylesheet'>
 
 </head>
 
@@ -15,85 +16,89 @@
     <h2>Welcome to EPR</h2>
 
     <form action="">
-        <div class="section personal">
+        <div class="top" style="background-color: black;">
 
-            <div class="control">
-                <div>
 
-                    <label for="firstname">First Name</label>
+            <div class="section personal">
+
+                <div class="control">
+                    <div>
+
+                        <label for="firstname">First Name</label>
+                    </div>
+                    <div>
+
+                        <input type="text" name="firstname">
+                    </div>
                 </div>
-                <div>
+                <div class="control">
+                    <div>
 
-                    <input type="text" name="firstname">
+                        <label for="lastname">Last Name</label>
+                    </div>
+                    <div>
+
+                        <input type="text" name="lastname">
+                    </div>
                 </div>
-            </div>
-            <div class="control">
-                <div>
+                <div class="control">
+                    <div>
 
-                    <label for="lastname">Last Name</label>
+                        <label for="birthday">Birthday</label>
+                    </div>
+                    <div>
+
+                        <input type="date" name="birthday">
+                    </div>
                 </div>
-                <div>
+                <div class="control">
+                    <div>
 
-                    <input type="text" name="lastname">
-                </div>
-            </div>
-            <div class="control">
-                <div>
+                        <label for="gender">Gender</label>
+                    </div>
+                    <div>
 
-                    <label for="birthday">Birthday</label>
-                </div>
-                <div>
+                        <select name="gender" id="">
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                            <option value="3">Other</option>
+                        </select>
+                    </div>
 
-                    <input type="date" name="birthday">
-                </div>
-            </div>
-            <div class="control">
-                <div>
-
-                    <label for="gender">Gender</label>
-                </div>
-                <div>
-
-                    <select name="gender" id="">
-                        <option value="1">Male</option>
-                        <option value="2">Female</option>
-                        <option value="3">Other</option>
-                    </select>
-                </div>
-
-            </div>
-        </div>
-        <div class="section address">
-
-
-            <div class="control">
-                <div>
-
-                    <label for="city">City</label>
-                </div>
-                <div>
-
-                    <input type="text" name="city">
                 </div>
             </div>
-            <div class="control">
-                <div>
+            <div class="section address">
 
-                    <label for="street">Street</label>
+
+                <div class="control">
+                    <div>
+
+                        <label for="city">City</label>
+                    </div>
+                    <div>
+
+                        <input type="text" name="city">
+                    </div>
                 </div>
-                <div>
+                <div class="control">
+                    <div>
 
-                    <input type="text" name="street">
+                        <label for="street">Street</label>
+                    </div>
+                    <div>
+
+                        <input type="text" name="street">
+                    </div>
                 </div>
-            </div>
-            <div class="control">
-                <div>
+                <div class="control">
+                    <div>
 
-                    <label for="house">House</label>
-                </div>
-                <div>
+                        <label for="house">House</label>
+                    </div>
+                    <div>
 
-                    <input type="text" name="house">
+                        <input type="text" name="house">
+                    </div>
                 </div>
             </div>
         </div>
