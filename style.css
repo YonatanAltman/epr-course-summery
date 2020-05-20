@@ -1,0 +1,8 @@
+.control {
+    outline: red solid 1px;
+    width: 33%;
+}
+
+.control input {
+    background-color: aqua;
+}
