@@ -1,3 +1,20 @@
-.canvas{
+.center {
+    display: grid;
+    place-content: center;
+}
+
+.btn-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.canvas {
     border: 1px solid green;
+    height: auto;
+    width: 800px;
+    max-width: 80vw;
+}
+.canvas:hover {
+    outline: 13px gray solid;
+    cursor: not-allowed;
 }
